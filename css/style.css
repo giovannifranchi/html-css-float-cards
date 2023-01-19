@@ -39,10 +39,66 @@ Header
 ----------------------
 */
 
-header h1{
+header h1 {
     text-align: center;
     font-size: 40px;
     color: #e53170;
     margin-bottom: 40px;
+}
+
+/*
+----------------------
+Main
+----------------------
+*/
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.card {
+    width: calc(100% / 3 - 35px);
+    background-color: #0f0e17;
+    float: left;
+    margin-top: 35px;
+    box-shadow: 0px 1px 13px 0px #000000;
+}
+
+.cards-container > :not(:nth-child(3n)){
+    margin-right: 35px;
+}
+
+.card-section {
+    float: left;
+}
+
+.card-section img {
+    width: 100%;
+    display: block;
+}
+
+.img {
+    width: 30%;
+}
+
+.info {
+    width: 70%;
+    padding: 10px 20px;
+}
+
+.info h2, h3 {
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+.info :nth-child(2){
+    font-weight: 300;
+}
+
+.info a {
+    text-decoration: none;
+    color: #5ebce4;
 }
 
