@@ -1,0 +1,48 @@
+/*
+----------------------
+Reset
+----------------------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+----------------------
+Type
+----------------------
+*/
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Inconsolata', monospace;
+    color: #2c3216;
+}
+
+/*
+----------------------
+General
+----------------------
+*/
+
+.main-container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+/*
+----------------------
+Header
+----------------------
+*/
+
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color: #e53170;
+    margin-bottom: 40px;
+}
+
